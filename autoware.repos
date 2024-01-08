@@ -1,0 +1,92 @@
+repositories:
+  # core
+  core/autoware_msgs:
+    type: git
+    url: https://github.com/BELIV-ASU/autoware_msgs.git
+    version: main
+  core/autoware_adapi_msgs:
+    type: git
+    url: https://github.com/autowarefoundation/autoware_adapi_msgs.git
+    version: main
+  core/autoware_common:
+    type: git
+    url: https://github.com/BELIV-ASU/autoware_common.git
+    version: master
+  core/external/autoware_auto_msgs:
+    type: git
+    url: https://github.com/BELIV-ASU/autoware_auto_msgs.git
+    version: tier4/main
+  # universe
+  universe/autoware.universe:
+    type: git
+    url: https://github.com/BELIV-ASU/autoware.universe.git
+    version: beliv
+  universe/external/tier4_ad_api_adaptor:
+    type: git
+    url: https://github.com/tier4/tier4_ad_api_adaptor.git
+    version: tier4/universe
+  universe/external/tier4_autoware_msgs:
+    type: git
+    url: https://github.com/tier4/tier4_autoware_msgs.git
+    version: tier4/universe
+  universe/external/morai_msgs:
+    type: git
+    url: https://github.com/MORAI-Autonomous/MORAI-ROS2_morai_msgs.git
+    version: main
+  universe/external/muSSP:
+    type: git
+    url: https://github.com/tier4/muSSP.git
+    version: tier4/main
+  universe/external/ndt_omp:
+    type: git
+    url: https://github.com/tier4/ndt_omp.git
+    version: tier4/main
+  universe/external/pointcloud_to_laserscan:
+    type: git
+    url: https://github.com/tier4/pointcloud_to_laserscan.git
+    version: tier4/main
+  universe/external/eagleye:
+    type: git
+    url: https://github.com/MapIV/eagleye.git
+    version: autoware-main
+  universe/external/rtklib_ros_bridge:
+    type: git
+    url: https://github.com/MapIV/rtklib_ros_bridge.git
+    version: ros2-v0.1.0
+  universe/external/llh_converter:
+    type: git
+    url: https://github.com/MapIV/llh_converter.git
+    version: ros2
+  universe/autoware.universe/universe_launch:
+    type: git
+    url: https://github.com/BELIV-ASU/universe_launch.git
+    version: virtual_objects  
+  # launcher
+  launcher/autoware_launch:
+    type: git
+    url: https://github.com/BELIV-ASU/autoware_launch.git
+    version: carla_sim
+  # sensor_component
+  sensor_component/external/sensor_component_description:
+    type: git
+    url: https://github.com/BELIV-ASU/sensor_component_description.git
+    version: main  
+  # sensor_kit
+  sensor_kit/mache_sensor_kit_launch:
+    type: git
+    url: https://github.com/BELIV-ASU/mache_sensor_kit_launch.git
+    version: carla_sim
+  # vehicle
+  vehicle/beliv_vehicle_launch:
+    type: git
+    url: https://github.com/BELIV-ASU/beliv_vehicle_launch.git
+    version: master
+  vehicle/external/beliv_vehicle_interface:
+    type: git
+    url: https://github.com/BELIV-ASU/BELIV_vehicle_interface.git
+    version: beliv_vehicle
+  # param
+  param:
+    type: git
+    url: https://github.com/BELIV-ASU/param.git
+    version: main 
